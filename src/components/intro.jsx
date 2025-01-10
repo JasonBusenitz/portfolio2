@@ -3,7 +3,7 @@ export default function Intro() {
     return (
         <>
             <section>
-                <img src="" alt="Handsome man with a white dress shirt" />
+                <img src="" alt="Handsome man in a white dress shirt" />
                 <h1>
                     Jason Busenitz
                 </h1>
