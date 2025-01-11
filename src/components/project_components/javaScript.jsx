@@ -20,10 +20,10 @@ export default function JavaScript() {
             </a>
             <ul>
                 <li>
-                    <button type="button" onClick={() => openRepo()}>Repo</button>
+                    <button onClick={() => openRepo()}>Repo</button>
                 </li>
                 <li>
-                    <button type="button" onClick={() => openWebsite()}>Website</button>
+                    <button onClick={() => openWebsite()}>Website</button>
                 </li>
             </ul>
         </>
