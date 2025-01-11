@@ -1,22 +1,23 @@
 
 
-export default function JavaScript() {
+export default function Css() {
+
     const openRepo = () => {
-        const url = 'https://github.com/JasonBusenitz/employee-payroll-tracker';
+        const url = "https://github.com/JasonBusenitz/code-refactor";
         const win = window.open(url, '_blank');
         win.focus();
     }
 
     const openWebsite = () => {
-        const url = 'https://jasonbusenitz.github.io/employee-payroll-tracker/';
+        const url = "https://jasonbusenitz.github.io/code-refactor/";
         const win = window.open(url, '_blank');
         win.focus();
     }
 
     return (
         <>
-            <a href="https://jasonbusenitz.github.io/employee-payroll-tracker/" target="_blank">
-                <img src="src\assets\images\js.png" alt="A screenshot of Jason's JavaScript project." />
+            <a src="https://jasonbusenitz.github.io/code-refactor/">
+                <img src="src\assets\images\css.png" alt="A picture of Jason's CSS project." />
             </a>
             <ul>
                 <li>
