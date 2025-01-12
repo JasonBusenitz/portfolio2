@@ -18,7 +18,7 @@ export default function Agile() {
             <h2>
                 Agile
             </h2>
-            <a src="https://jasonbusenitz.github.io/task-tracker/top.html">
+            <a href="https://jasonbusenitz.github.io/task-tracker/top.html" target="_blank">
                 <img src="src\assets\images\agile.png" alt="A picture of Jason's Agile project." />
             </a>
             <ul>

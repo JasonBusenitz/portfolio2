@@ -19,7 +19,7 @@ export default function Css() {
             <h2>
                 CSS
             </h2>
-            <a src="https://jasonbusenitz.github.io/code-refactor/">
+            <a href="https://jasonbusenitz.github.io/code-refactor/" target="_blank">
                 <img src="src\assets\images\css.png" alt="A picture of Jason's CSS project." />
             </a>
             <ul>

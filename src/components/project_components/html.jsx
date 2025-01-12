@@ -18,7 +18,7 @@ export default function Html() {
             <h2>
                 HTML
             </h2>
-            <a src="https://jasonbusenitz.github.io/home_project/">
+            <a href="https://jasonbusenitz.github.io/home_project/" target="_blank">
                 <img src="src\assets\images\html.png" alt="A picture of Jason's HTML project." />
             </a>
             <ul>
