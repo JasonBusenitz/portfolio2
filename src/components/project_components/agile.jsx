@@ -1,14 +1,14 @@
 
 
-export default function JavaScript() {
+export default function Agile() {
     const openRepo = () => {
-        const url = 'https://github.com/JasonBusenitz/employee-payroll-tracker';
+        const url = "https://github.com/JasonBusenitz/task-tracker";
         const win = window.open(url, '_blank');
         win.focus();
     }
 
     const openWebsite = () => {
-        const url = 'https://jasonbusenitz.github.io/employee-payroll-tracker/';
+        const url = "https://jasonbusenitz.github.io/task-tracker/top.html";
         const win = window.open(url, '_blank');
         win.focus();
     }
@@ -16,10 +16,10 @@ export default function JavaScript() {
     return (
         <>
             <h2>
-                JavaScript
+                Agile
             </h2>
-            <a href="https://jasonbusenitz.github.io/employee-payroll-tracker/" target="_blank">
-                <img src="src\assets\images\js.png" alt="A screenshot of Jason's JavaScript project." />
+            <a src="https://jasonbusenitz.github.io/task-tracker/top.html">
+                <img src="src\assets\images\agile.png" alt="A picture of Jason's Agile project." />
             </a>
             <ul>
                 <li>
@@ -31,4 +31,5 @@ export default function JavaScript() {
             </ul>
         </>
     )
+
 }

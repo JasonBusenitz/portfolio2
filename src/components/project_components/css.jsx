@@ -16,6 +16,9 @@ export default function Css() {
 
     return (
         <>
+            <h2>
+                CSS
+            </h2>
             <a src="https://jasonbusenitz.github.io/code-refactor/">
                 <img src="src\assets\images\css.png" alt="A picture of Jason's CSS project." />
             </a>

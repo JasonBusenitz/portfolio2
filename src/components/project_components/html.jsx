@@ -1,14 +1,14 @@
 
 
-export default function JavaScript() {
+export default function Html() {
     const openRepo = () => {
-        const url = 'https://github.com/JasonBusenitz/employee-payroll-tracker';
+        const url = "https://github.com/JasonBusenitz/home_project";
         const win = window.open(url, '_blank');
         win.focus();
     }
 
     const openWebsite = () => {
-        const url = 'https://jasonbusenitz.github.io/employee-payroll-tracker/';
+        const url = "https://jasonbusenitz.github.io/home_project/";
         const win = window.open(url, '_blank');
         win.focus();
     }
@@ -16,10 +16,10 @@ export default function JavaScript() {
     return (
         <>
             <h2>
-                JavaScript
+                HTML
             </h2>
-            <a href="https://jasonbusenitz.github.io/employee-payroll-tracker/" target="_blank">
-                <img src="src\assets\images\js.png" alt="A screenshot of Jason's JavaScript project." />
+            <a src="https://jasonbusenitz.github.io/home_project/">
+                <img src="src\assets\images\html.png" alt="A picture of Jason's HTML project." />
             </a>
             <ul>
                 <li>
