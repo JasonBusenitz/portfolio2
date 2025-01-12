@@ -1,24 +1,24 @@
 export default function Skills() {
     return (
         <>
-            <h3>
+            <h3 id="skillsHeading">
                 Click on a skill below to explore the corresponding project
             </h3>
             <ul>
                 <li>
-                    <a href="#">React</a>
+                    <a href="#reactHeader">React</a>
                 </li>
                 <li>
-                    <a href="#">JavaScript</a>
+                    <a href="#jsHeading">JavaScript</a>
                 </li>
                 <li>
-                    <a href="#">CSS</a>
+                    <a href="#cssHeading">CSS</a>
                 </li>
                 <li>
-                    <a href="#">HTML</a>
+                    <a href="#htmlHeading">HTML</a>
                 </li>
                 <li>
-                    <a href="#">Agile</a>
+                    <a href="#agileHeading">Agile</a>
                 </li>
             </ul>
         </>

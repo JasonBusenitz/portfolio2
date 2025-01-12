@@ -15,7 +15,7 @@ export default function Html() {
 
     return (
         <>
-            <h2>
+            <h2 id="htmlHeading">
                 HTML
             </h2>
             <a href="https://jasonbusenitz.github.io/home_project/" target="_blank">
@@ -27,6 +27,11 @@ export default function Html() {
                 </li>
                 <li>
                     <button onClick={() => openWebsite()}>Website</button>
+                </li>
+                <li>
+                    <a href="#skillsHeading">
+                        <button>Back to Top</button>
+                    </a>
                 </li>
             </ul>
         </>

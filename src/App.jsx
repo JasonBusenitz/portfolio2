@@ -9,8 +9,8 @@ function App() {
     <>
       <Intro />
       <Nav />
-      <Projects />
       <Skills />
+      <Projects />
     </>
   )
 }
