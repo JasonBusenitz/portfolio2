@@ -16,7 +16,7 @@ export default function Css() {
 
     return (
         <>
-            <h2>
+            <h2 id="cssHeading">
                 CSS
             </h2>
             <a href="https://jasonbusenitz.github.io/code-refactor/" target="_blank">
@@ -28,6 +28,11 @@ export default function Css() {
                 </li>
                 <li>
                     <button onClick={() => openWebsite()}>Website</button>
+                </li>
+                <li>
+                    <a href="#skillsHeading">
+                        <button>Back to Top</button>
+                    </a>
                 </li>
             </ul>
         </>

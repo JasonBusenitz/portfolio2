@@ -10,13 +10,22 @@ export default function React() {
 
     return (
         <>
-            <h2>
+            <h2 id="reactHeader">
                 React
             </h2>
             <h3>
                 You are scrolling through one of my react projects right now.
             </h3>
-            <button onClick={() => openRepo()}>Repo</button>
+            <ul>
+                <li>
+                    <button onClick={() => openRepo()}>Repo</button>
+                </li>
+                <li>
+                    <a href="#skillsHeading">
+                        <button>Back to Top</button>
+                    </a>
+                </li>
+            </ul>
         </>
     )
 }

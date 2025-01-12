@@ -15,7 +15,7 @@ export default function JavaScript() {
 
     return (
         <>
-            <h2>
+            <h2 id="jsHeading">
                 JavaScript
             </h2>
             <a href="https://jasonbusenitz.github.io/employee-payroll-tracker/" target="_blank">
@@ -27,6 +27,11 @@ export default function JavaScript() {
                 </li>
                 <li>
                     <button onClick={() => openWebsite()}>Website</button>
+                </li>
+                <li>
+                    <a href="#skillsHeading">
+                        <button>Back to Top</button>
+                    </a>
                 </li>
             </ul>
         </>
