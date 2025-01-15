@@ -28,6 +28,11 @@ h6 {
     font-size: 100%;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 
 /* Matches the font of special elements to the rest of the page */
 input,
