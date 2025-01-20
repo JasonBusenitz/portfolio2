@@ -1,0 +1,8 @@
+#introSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+#profilePic {
+    flex-shrink: 5;
+}
