@@ -1,8 +1,10 @@
+import img from '../assets/images/placeHolder.png'
+
 export default function Intro() {
 
     return (
         <section>
-            <img src="" alt="Handsome man in a white dress shirt" />
+            <img src={img} alt="Handsome man in a white dress shirt" />
             <h1>
                 Jason Busenitz
             </h1>

@@ -1,4 +1,4 @@
-
+import img from '../../assets/images/git.png'
 
 export default function Git() {
     const openRepo = () => {
@@ -20,7 +20,7 @@ export default function Git() {
                 Git
             </h2>
             <a href="https://jasonbusenitz.github.io/task-tracker/top.html" target="_blank">
-                <img src="src\assets\images\agile.png" alt="A picture of Jason's Git project." />
+                <img src={img} alt="A picture of Jason's Git project." />
             </a>
             <ul>
                 <li>

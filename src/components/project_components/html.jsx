@@ -1,4 +1,4 @@
-
+import img from '../../assets/images/html.png';
 
 export default function Html() {
     const openRepo = () => {
@@ -19,7 +19,7 @@ export default function Html() {
                 HTML
             </h2>
             <a href="https://jasonbusenitz.github.io/home_project/" target="_blank">
-                <img src="src\assets\images\html.png" alt="A picture of Jason's HTML project." />
+                <img src={img} alt="A picture of Jason's HTML project." />
             </a>
             <ul>
                 <li>
