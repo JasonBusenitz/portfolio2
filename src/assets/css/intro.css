@@ -1,8 +1,20 @@
 #introSection {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 3vh;
 }
 
 #profilePic {
     flex-shrink: 5;
+    padding: 2vh 2vh 0 2vh;
+    border-right: .5vh solid black;
+
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
 }

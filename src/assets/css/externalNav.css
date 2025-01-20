@@ -1,0 +1,6 @@
+#externalNavUl {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 4vh;
+}

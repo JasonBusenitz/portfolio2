@@ -6,7 +6,7 @@ export default function Intro() {
     return (
         <section id='introSection'>
             <div id='profilePic'>
-                <img src={img} alt="Handsome man in a white dress shirt" width="400" height="350" />
+                <img src={img} alt="Handsome man in a white dress shirt" width="400" height="100" />
             </div>
             <div id='info'>
                 <h1>

@@ -1,11 +1,12 @@
 import CvIcon from "./icons/cvIcon";
 import GitHubIcon from "./icons/githubIcon";
 import LinkdinIcon from "./icons/linkdinIcon";
+import "../assets/css/externalNav.css"
 
 export default function Nav() {
 
     return (
-        <ul>
+        <ul id="externalNavUl">
             <li>
                 <a href="https://github.com/JasonBusenitz?tab=overview&from=2025-01-01&to=2025-01-10" target="_blank"><GitHubIcon /> Github</a>
             </li>
