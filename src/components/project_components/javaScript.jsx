@@ -1,4 +1,4 @@
-
+import img from '../../assets/images/js.png';
 
 export default function JavaScript() {
     const openRepo = () => {
@@ -19,7 +19,7 @@ export default function JavaScript() {
                 JavaScript
             </h2>
             <a href="https://jasonbusenitz.github.io/employee-payroll-tracker/" target="_blank">
-                <img src="src\assets\images\js.png" alt="A screenshot of Jason's JavaScript project." />
+                <img src={img} alt="A screenshot of Jason's JavaScript project." />
             </a>
             <ul>
                 <li>

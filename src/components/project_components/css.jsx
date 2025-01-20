@@ -1,4 +1,4 @@
-
+import img from '../../assets/images/css.png';
 
 export default function Css() {
 
@@ -20,7 +20,7 @@ export default function Css() {
                 CSS
             </h2>
             <a href="https://jasonbusenitz.github.io/code-refactor/" target="_blank">
-                <img src="src\assets\images\css.png" alt="A picture of Jason's CSS project." />
+                <img src={img} alt="A picture of Jason's CSS project." />
             </a>
             <ul>
                 <li>

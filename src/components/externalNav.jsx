@@ -13,7 +13,7 @@ export default function Nav() {
                 <a href="https://www.linkedin.com/in/jason-busenitz-bb94652a5/" target="_blank"><LinkdinIcon /> Linkdin</a>
             </li>
             <li>
-                <a href="" target="_blank"><CvIcon /> CV</a>
+                <a href="#" target="_blank"><CvIcon /> CV</a>
             </li>
         </ul>
     )
