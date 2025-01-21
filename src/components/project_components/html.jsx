@@ -21,7 +21,7 @@ export default function Html() {
                 </h2>
                 <div>
                     <a href="https://jasonbusenitz.github.io/home_project/" target="_blank">
-                        <img src={img} alt="A picture of Jason's HTML project." height="500" width="700" />
+                        <img src={img} alt="A picture of Jason's HTML project." height="800" width="1000" />
                     </a>
                     <ul>
                         <li>
