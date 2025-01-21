@@ -1,0 +1,20 @@
+#skillsSection {
+    padding-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: .8vh double black;
+    border-radius: 0 0 40px 40px;
+}
+
+#skillsHeading {
+    padding-bottom: 3vh;
+}
+
+#skillsSection ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3vh;
+}
