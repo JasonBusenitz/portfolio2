@@ -10,23 +10,25 @@ export default function React() {
 
     return (
         <>
-            <section>
+            <section className="projectSection">
                 <h2 id="reactHeader">
                     React
                 </h2>
-                <h3>
-                    You are scrolling through one of my react projects right now.
-                </h3>
-                <ul>
-                    <li>
-                        <button onClick={() => openRepo()}>Repo</button>
-                    </li>
-                    <li>
-                        <a href="#skillsHeading">
-                            <button>Back to Top</button>
-                        </a>
-                    </li>
-                </ul>
+                <div>
+                    <h3>
+                        You are scrolling through one of my react projects right now.
+                    </h3>
+                    <ul>
+                        <li>
+                            <button onClick={() => openRepo()}>Repo</button>
+                        </li>
+                        <li>
+                            <a href="#skillsHeading">
+                                <button>Back to Top</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </section>
         </>
     )

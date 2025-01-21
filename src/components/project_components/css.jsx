@@ -16,26 +16,28 @@ export default function Css() {
 
     return (
         <>
-            <section>
+            <section className='projectSection'>
                 <h2 id="cssHeading">
                     CSS
                 </h2>
-                <a href="https://jasonbusenitz.github.io/code-refactor/" target="_blank">
-                    <img src={img} alt="A picture of Jason's CSS project." height="900" width="400" />
-                </a>
-                <ul>
-                    <li>
-                        <button onClick={() => openRepo()}>Repo</button>
-                    </li>
-                    <li>
-                        <button onClick={() => openWebsite()}>Website</button>
-                    </li>
-                    <li>
-                        <a href="#skillsHeading">
-                            <button>Back to Top</button>
-                        </a>
-                    </li>
-                </ul>
+                <div>
+                    <a href="https://jasonbusenitz.github.io/code-refactor/" target="_blank">
+                        <img src={img} alt="A picture of Jason's CSS project." height="500" width="700" />
+                    </a>
+                    <ul>
+                        <li>
+                            <button onClick={() => openRepo()}>Repo</button>
+                        </li>
+                        <li>
+                            <button onClick={() => openWebsite()}>Website</button>
+                        </li>
+                        <li>
+                            <a href="#skillsHeading">
+                                <button>Back to Top</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </section>
         </>
     )
