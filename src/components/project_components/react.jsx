@@ -10,7 +10,7 @@ export default function React() {
 
     return (
         <>
-            <section className="projectSection">
+            <section className="projectSection" id="reactSection">
                 <h2 id="reactHeader">
                     React
                 </h2>

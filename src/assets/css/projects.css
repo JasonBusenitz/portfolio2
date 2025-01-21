@@ -1,5 +1,5 @@
 .projectSection {
-    padding-top: 10vh;
+    padding-top: 20vh;
     padding-left: 5vh;
     padding-right: 5vh;
     display: flex;
@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: space-evenly;
     align-content: center;
+    flex-grow: 1;
 }
 
 .projectSection div {
@@ -25,4 +26,12 @@
     align-items: center;
     align-content: center;
     gap: 5vh;
+}
+
+.projectSection li {
+    flex-grow: 1;
+}
+
+#reactSection {
+    padding-bottom: 20vh;
 }
