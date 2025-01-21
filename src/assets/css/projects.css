@@ -1,0 +1,37 @@
+.projectSection {
+    padding-top: 20vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-grow: 1;
+}
+
+.projectSection div {
+    border: .2vh solid black;
+    padding: 2vh 4vh 2vh 4vh;
+    border-radius: 30px;
+}
+
+.projectSection h2 {
+    padding-bottom: 2vh;
+}
+
+.projectSection ul {
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.projectSection li {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#reactSection {
+    padding-bottom: 20vh;
+}
