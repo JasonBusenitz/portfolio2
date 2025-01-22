@@ -1,7 +1,15 @@
 #externalNavUl {
     display: flex;
+    gap: 3vh;
+}
+
+#externalNavUl li {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    padding-top: 4vh;
-    flex-grow: 1;
+}
+
+#externalNavUl li:hover {
+    transform: translateY(-1vh);
+    box-shadow: 0 0 2vh blue;
 }
