@@ -15,19 +15,24 @@ export default function Skills() {
                 </h3>
                 <ul>
                     <li>
-                        <a href="#reactHeader"><ReactIcon /> <br /> React</a>
+                        <a href="#reactHeader"><ReactIcon /></a>
+                        <a href="#reactHeader">React</a>
                     </li>
                     <li>
-                        <a href="#jsHeading"><JSIcon /> <br /> JavaScript</a>
+                        <a href="#jsHeading"><JSIcon /></a>
+                        <a href="#jsHeading">JavaScript</a>
                     </li>
                     <li>
-                        <a href="#cssHeading"><CssIcon /> <br /> CSS</a>
+                        <a href="#cssHeading"><CssIcon /></a>
+                        <a href="#cssHeading">CSS</a>
                     </li>
                     <li>
-                        <a href="#htmlHeading"><HtmlIcon /> <br /> HTML</a>
+                        <a href="#htmlHeading"><HtmlIcon /></a>
+                        <a href="#htmlHeading">HTML</a>
                     </li>
                     <li>
-                        <a href="#gitHeading"><GitIcon /> <br /> Git</a>
+                        <a href="#gitHeading"><GitIcon /></a>
+                        <a href="#gitHeading">Git</a>
                     </li>
                 </ul>
             </section>

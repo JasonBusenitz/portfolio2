@@ -1,5 +1,7 @@
 import img from '../assets/images/placeHolder.png'
 import '../assets/css/intro.css'
+import Nav from './externalNav'
+
 
 export default function Intro() {
 
@@ -18,6 +20,7 @@ export default function Intro() {
                 <h3>
                     &#127759; Tecumseh, KS
                 </h3>
+                <Nav />
             </div>
         </section>
     )
