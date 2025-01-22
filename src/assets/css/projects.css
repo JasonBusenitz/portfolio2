@@ -21,15 +21,28 @@
 }
 
 .projectSection ul {
+    padding-top: 1vh;
     display: flex;
     justify-content: center;
-    gap: 5vh;
 }
 
 .projectSection li {
     flex-grow: 1;
     display: flex;
     justify-content: center;
+}
+
+.projectSection li button {
+    text-decoration: none;
+    color: inherit;
+    padding: 0 .5vh 0 .5vh;
+    border-radius: .5vh;
+    transition: transform .2s, box-shadow .2s;
+}
+
+.projectSection li button:hover {
+    transform: translateY(-.4vh);
+    box-shadow: 0 0 2vh blue;
 }
 
 #reactSection {
