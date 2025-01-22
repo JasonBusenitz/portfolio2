@@ -14,23 +14,23 @@ export default function Skills() {
                     Click on a skill below to explore the corresponding project
                 </h3>
                 <ul>
-                    <li>
+                    <li className="transition">
                         <a href="#reactHeader"><ReactIcon /></a>
                         <a href="#reactHeader">React</a>
                     </li>
-                    <li>
+                    <li className="transition">
                         <a href="#jsHeading"><JSIcon /></a>
                         <a href="#jsHeading">JavaScript</a>
                     </li>
-                    <li>
+                    <li className="transition">
                         <a href="#cssHeading"><CssIcon /></a>
                         <a href="#cssHeading">CSS</a>
                     </li>
-                    <li>
+                    <li className="transition">
                         <a href="#htmlHeading"><HtmlIcon /></a>
                         <a href="#htmlHeading">HTML</a>
                     </li>
-                    <li>
+                    <li className="transition">
                         <a href="#gitHeading"><GitIcon /></a>
                         <a href="#gitHeading">Git</a>
                     </li>
