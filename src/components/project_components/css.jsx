@@ -16,7 +16,7 @@ export default function Css() {
 
     return (
         <>
-            <section className='projectSection'>
+            <section className='projectSection' id='cssSection'>
                 <h2 id="cssHeading">
                     CSS
                 </h2>
@@ -32,7 +32,7 @@ export default function Css() {
                             <button onClick={() => openWebsite()}>Website</button>
                         </li>
                         <li>
-                            <a href="#skillsHeading">
+                            <a href="#skillsSection">
                                 <button>Back to Top</button>
                             </a>
                         </li>

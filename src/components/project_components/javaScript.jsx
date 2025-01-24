@@ -15,7 +15,7 @@ export default function JavaScript() {
 
     return (
         <>
-            <section className='projectSection'>
+            <section className='projectSection' id='jsSection'>
                 <h2 id="jsHeading">
                     JavaScript
                 </h2>
@@ -31,7 +31,7 @@ export default function JavaScript() {
                             <button onClick={() => openWebsite()}>Website</button>
                         </li>
                         <li>
-                            <a href="#skillsHeading">
+                            <a href="#skillsSection">
                                 <button>Back to Top</button>
                             </a>
                         </li>

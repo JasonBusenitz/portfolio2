@@ -16,7 +16,7 @@ export default function Git() {
 
     return (
         <>
-            <section className='projectSection'>
+            <section className='projectSection' id='gitSection'>
                 <h2 id="gitHeading">
                     Git
                 </h2>
@@ -32,7 +32,7 @@ export default function Git() {
                             <button onClick={() => openWebsite()}>Website</button>
                         </li>
                         <li>
-                            <a href="#skillsHeading">
+                            <a href="#skillsSection">
                                 <button>Back to Top</button>
                             </a>
                         </li>

@@ -23,7 +23,7 @@ export default function React() {
                             <button onClick={() => openRepo()}>Repo</button>
                         </li>
                         <li>
-                            <a href="#skillsHeading">
+                            <a href="#skillsSection">
                                 <button>Back to Top</button>
                             </a>
                         </li>
