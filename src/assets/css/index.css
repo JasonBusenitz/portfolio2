@@ -22,6 +22,14 @@ h3 {
     font-size: 2vh;
 }
 
+a {
+    font-size: 1.8vh;
+}
+
+button {
+    font-size: 1.5vh;
+}
+
 
 body {
     display: flex;
