@@ -29,6 +29,4 @@
 
 #skillsSection li:hover {
     transform: translateY(-1vh);
-    box-shadow: 0 0 2vh blue;
-    background-color: aqua;
 }
