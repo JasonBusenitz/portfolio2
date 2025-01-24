@@ -14,6 +14,7 @@
     border: .2vh solid black;
     padding: 2vh 4vh 2vh 4vh;
     border-radius: 30px;
+    background-color: #696667;
 }
 
 .projectSection h2 {
@@ -35,6 +36,7 @@
 .projectSection li button {
     text-decoration: none;
     color: inherit;
+    background-color: #F9F6EE;
     padding: 0 .5vh 0 .5vh;
     border-radius: .5vh;
     transition: transform .2s, box-shadow .2s;
@@ -42,7 +44,7 @@
 
 .projectSection li button:hover {
     transform: translateY(-.4vh);
-    box-shadow: 0 0 2vh blue;
+    box-shadow: 0 0 2vh #ADEFD1;
 }
 
 #reactSection {
