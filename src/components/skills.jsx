@@ -15,24 +15,24 @@ export default function Skills() {
                 </h3>
                 <ul>
                     <li className="transition">
-                        <a href="#reactHeader"><ReactIcon /></a>
-                        <a href="#reactHeader">React</a>
+                        <a href="#reactSection"><ReactIcon /></a>
+                        <a href="#reactSection">React</a>
                     </li>
                     <li className="transition">
-                        <a href="#jsHeading"><JSIcon /></a>
-                        <a href="#jsHeading">JavaScript</a>
+                        <a href="#jsSection"><JSIcon /></a>
+                        <a href="#jsSection">JavaScript</a>
                     </li>
                     <li className="transition">
-                        <a href="#cssHeading"><CssIcon /></a>
-                        <a href="#cssHeading">CSS</a>
+                        <a href="#cssSection"><CssIcon /></a>
+                        <a href="#cssSection">CSS</a>
                     </li>
                     <li className="transition">
-                        <a href="#htmlHeading"><HtmlIcon /></a>
-                        <a href="#htmlHeading">HTML</a>
+                        <a href="#htmlSection"><HtmlIcon /></a>
+                        <a href="#htmlSection">HTML</a>
                     </li>
                     <li className="transition">
-                        <a href="#gitHeading"><GitIcon /></a>
-                        <a href="#gitHeading">Git</a>
+                        <a href="#gitSection"><GitIcon /></a>
+                        <a href="#gitSection">Git</a>
                     </li>
                 </ul>
             </section>
