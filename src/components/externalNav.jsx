@@ -2,6 +2,7 @@ import CvIcon from "./icons/cvIcon";
 import GitHubIcon from "./icons/githubIcon";
 import LinkdinIcon from "./icons/linkdinIcon";
 import "../assets/css/externalNav.css"
+import pdf from '../assets/pdf/cv.pdf';
 
 export default function Nav() {
 
@@ -16,8 +17,8 @@ export default function Nav() {
                 <a href="https://www.linkedin.com/in/jason-busenitz-bb94652a5/" target="_blank">Linkdin</a>
             </li>
             <li className="transition">
-                <a href="#" target="_blank"><CvIcon /></a>
-                <a href="#" target="_blank">CV</a>
+                <a href={pdf} target="_blank"><CvIcon /></a>
+                <a href={pdf} target="_blank">CV</a>
             </li>
         </ul>
     )
