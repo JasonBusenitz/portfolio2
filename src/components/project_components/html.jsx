@@ -1,6 +1,15 @@
-import img from '../../assets/images/html.png';
+import img from '../../assets/images/htmlPics/html.png';
+import bluryImg from '../../assets/images/htmlPics/blurHtml.png'
 
 export default function Html() {
+
+    const blurImg = {
+        background: {
+            backgroundImage: `url(${bluryImg})`,
+            backgroundSize: 'cover',
+        },
+    }
+
     const openRepo = () => {
         const url = "https://github.com/JasonBusenitz/home_project";
         const win = window.open(url, '_blank');
@@ -21,7 +30,7 @@ export default function Html() {
                 </h2>
                 <div>
                     <a href="https://jasonbusenitz.github.io/home_project/" target="_blank">
-                        <img src={img} alt="A picture of Jason's HTML project." height="800" width="1000" />
+                        <img src={img} style={blurImg.background} loading='lazy' alt="A picture of Jason's HTML project." height="800" width="1000" />
                     </a>
                     <ul>
                         <li>

@@ -1,6 +1,15 @@
-import img from '../../assets/images/js.png';
+import img from '../../assets/images/jsPics/js.png';
+import bluryImg from '../../assets/images/jsPics/blurJs.png'
 
 export default function JavaScript() {
+
+    const blurImg = {
+        background: {
+            backgroundImage: `url(${bluryImg})`,
+            backgroundSize: 'cover',
+        },
+    }
+
     const openRepo = () => {
         const url = 'https://github.com/JasonBusenitz/employee-payroll-tracker';
         const win = window.open(url, '_blank');
@@ -21,7 +30,7 @@ export default function JavaScript() {
                 </h2>
                 <div>
                     <a href="https://jasonbusenitz.github.io/employee-payroll-tracker/" target="_blank">
-                        <img src={img} alt="A screenshot of Jason's JavaScript project." height="800" width="1000" />
+                        <img src={img} style={blurImg.background} loading='lazy' alt="A screenshot of Jason's JavaScript project." height="800" width="1000" />
                     </a>
                     <ul>
                         <li>

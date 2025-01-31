@@ -1,6 +1,15 @@
-import img from '../../assets/images/node.png';
+import img from '../../assets/images/nodePics/node.png';
+import bluryImg from '../../assets/images/nodePics/blurNode.png';
+
 
 export default function Node() {
+
+    const blurImg = {
+        background: {
+            backgroundImage: `url(${bluryImg})`,
+            backgroundSize: 'cover',
+        },
+    }
 
     const openRepo = () => {
         const url = 'https://github.com/JasonBusenitz/readme-generator';
@@ -17,7 +26,7 @@ export default function Node() {
                 </h2>
                 <div>
                     <a href="https://github.com/JasonBusenitz/readme-generator" target="_blank">
-                        <img src={img} alt="A screenshot of Jason's Node project." height="800" width="1000" />
+                        <img src={img} style={blurImg.background} loading='lazy' alt="A screenshot of Jason's Node project." height="800" width="1000" />
                     </a>
                     <ul>
                         <li>

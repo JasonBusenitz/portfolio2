@@ -1,6 +1,14 @@
-import img from '../../assets/images/css.png';
+import img from '../../assets/images/cssPics/css.png';
+import bluryImg from '../../assets/images/cssPics/blurCss.png'
 
 export default function Css() {
+
+    const blurImg = {
+        background: {
+            backgroundImage: `url(${bluryImg})`,
+            backgroundSize: 'cover',
+        },
+    }
 
     const openRepo = () => {
         const url = "https://github.com/JasonBusenitz/code-refactor";
@@ -22,7 +30,7 @@ export default function Css() {
                 </h2>
                 <div>
                     <a href="https://jasonbusenitz.github.io/code-refactor/" target="_blank">
-                        <img src={img} alt="A picture of Jason's CSS project." height="800" width="1000" />
+                        <img src={img} style={blurImg.background} loading='lazy' alt="A picture of Jason's CSS project." height="800" width="1000" />
                     </a>
                     <ul>
                         <li>
