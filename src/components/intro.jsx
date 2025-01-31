@@ -1,4 +1,4 @@
-import img from '../assets/images/profilePic.png'
+import img from '../assets/images/profilePics/profilePic.png'
 import '../assets/css/intro.css'
 import Nav from './externalNav'
 
@@ -8,7 +8,7 @@ export default function Intro() {
     return (
         <section id='introSection'>
             <div id='profilePic'>
-                <img src={img} alt="Handsome man in a white dress shirt" width="400" height="100" />
+                <img src={img} loading='lazy' alt="Handsome man in a white dress shirt" width="400" height="100" />
             </div>
             <div id='info'>
                 <h1>

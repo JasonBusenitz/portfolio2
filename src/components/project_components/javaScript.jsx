@@ -21,7 +21,7 @@ export default function JavaScript() {
                 </h2>
                 <div>
                     <a href="https://jasonbusenitz.github.io/employee-payroll-tracker/" target="_blank">
-                        <img src={img} alt="A screenshot of Jason's JavaScript project." height="800" width="1000" />
+                        <img src={img} loading='lazy' alt="A screenshot of Jason's JavaScript project." height="800" width="1000" />
                     </a>
                     <ul>
                         <li>

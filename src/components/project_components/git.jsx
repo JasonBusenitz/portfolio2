@@ -22,7 +22,7 @@ export default function Git() {
                 </h2>
                 <div>
                     <a href="https://jasonbusenitz.github.io/task-tracker/top.html" target="_blank">
-                        <img src={img} alt="A picture of Jason's Git project." height="800" width="1000" />
+                        <img src={img} loading='lazy' alt="A picture of Jason's Git project." height="800" width="1000" />
                     </a>
                     <ul>
                         <li>
