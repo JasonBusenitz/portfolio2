@@ -1,4 +1,4 @@
-import img from '../assets/images/profilePics/profilePic.png'
+import img from '../assets/images/profilePics/newProfilePic.png'
 import '../assets/css/intro.css'
 import Nav from './externalNav'
 

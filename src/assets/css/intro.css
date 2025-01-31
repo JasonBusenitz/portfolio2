@@ -7,9 +7,9 @@
 
 #profilePic {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-shrink: 5;
-    padding: 2vh 2vh 0 2vh;
+    padding: 2vh 3vh 0 2vh;
     border-right: .5vh solid black;
     flex-grow: 1;
 }
