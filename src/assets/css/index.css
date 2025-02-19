@@ -6,6 +6,10 @@ html {
     scroll-behavior: smooth;
 }
 
+main {
+    background: linear-gradient(#00203F, #ADEFD1);
+}
+
 .transition {
     transition: transform 0.5s, box-shadow .2s;
 }
@@ -35,7 +39,4 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: linear-gradient(to left, #ADEFD1, #00203F);
-
-
 }
