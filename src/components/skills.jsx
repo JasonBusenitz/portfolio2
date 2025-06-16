@@ -5,6 +5,7 @@ import JSIcon from "./icons/jsIcon";
 import ReactIcon from "./icons/reactIcon";
 import '../assets/css/skills.css';
 import NodeIcon from "./icons/nodeIcon";
+import NextIcon from "./icons/nextIcon";
 
 
 export default function Skills() {
@@ -38,6 +39,10 @@ export default function Skills() {
                     <li className="transition">
                         <a href="#nodeSection"><NodeIcon /></a>
                         <a href="#nodeSection">Node</a>
+                    </li>
+                    <li className="transition">
+                        <a href="#nextSection"><NextIcon /></a>
+                        <a href="#nextSection">Next.js</a>
                     </li>
                 </ul>
             </section>
