@@ -5,6 +5,7 @@ import JavaScript from "./project_components/javaScript";
 import React from "./project_components/react";
 import Node from "./project_components/node";
 import '../assets/css/projects.css';
+import NextJS from "./project_components/nextJS";
 
 export default function Projects() {
     return (
@@ -14,6 +15,7 @@ export default function Projects() {
             <JavaScript />
             <Git />
             <Node />
+            <NextJS />
             <React />
         </>
     )
